@@ -1,0 +1,122 @@
+export const Data = [
+   {
+      id: 1,
+      x: 5,
+      userGain: 4000,
+      userLost: 823,
+   },
+   {
+      id: 2,
+      x: 7,
+      userGain: 2000,
+      userLost: 345,
+   },
+   {
+      id: 3,
+      x: 9,
+      userGain: 4000,
+      userLost: 555,
+   },
+   {
+      id: 4,
+      x: 10,
+      userGain: 4000,
+      userLost: 4555,
+   },
+   {
+      id: 5,
+      x: 11,
+      userGain: 6000,
+      userLost: 234,
+   },
+   {
+      id: 6,
+      x: 13,
+      userGain: 2000,
+      userLost: 823,
+   },
+   {
+      id: 7,
+      x: 15,
+      userGain: 2000,
+      userLost: 345,
+   },
+   {
+      id: 8,
+      x: 17,
+      userGain: 6000,
+      userLost: 555,
+   },
+   {
+      id: 9,
+      x: 18,
+      userGain: 4000,
+      userLost: 4555,
+   },
+   {
+      id: 10,
+      x: 20,
+      userGain: 6000,
+      userLost: 234,
+   },
+   {
+      id: 11,
+      x: 22,
+      userGain: 2000,
+      userLost: 823,
+   },
+   {
+      id: 12,
+      x: 23,
+      userGain: 6000,
+      userLost: 345,
+   },
+   {
+      id: 13,
+      x: 25,
+      userGain: 6000,
+      userLost: 555,
+   },
+   {
+      id: 14,
+      x: 27,
+      userGain: 2000,
+      userLost: 4555,
+   },
+   {
+      id: 15,
+      x: 28,
+      userGain: 2000,
+      userLost: 234,
+   },
+   {
+      id: 16,
+      x: 13,
+      userGain: 6000,
+      userLost: 823,
+   },
+   {
+      id: 17,
+      x: 15,
+      userGain: 4000,
+      userLost: 345,
+   },
+   {
+      id: 18,
+      x: 17,
+      userGain: 6000,
+      userLost: 555,
+   },
+   {
+      id: 19,
+      x: 18,
+      userGain: 4000,
+      userLost: 4555,
+   },
+   {
+      id: 20,
+      x: 20,
+      userGain: 6000,
+      userLost: 234,
+   }
+]
