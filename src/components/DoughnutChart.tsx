@@ -1,6 +1,6 @@
 import { Doughnut } from 'react-chartjs-2'
 
-function DoughnutChart({ chartData }) {
+function DoughnutChart({ chartData }: any) {
    return (
       <div className='h-20'>
          <Doughnut
@@ -14,7 +14,6 @@ function DoughnutChart({ chartData }) {
                      display: false,
                   },
                },
-               // maintainAspectRatio: false,
             }}
          />
       </div>

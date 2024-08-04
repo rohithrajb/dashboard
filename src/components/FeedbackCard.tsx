@@ -1,7 +1,7 @@
 import { RiStarFill } from '@remixicon/react'
 import myImage from '../assets/rohith.jpg'
 
-function FeedbackCard({ feedback }) {
+function FeedbackCard({ feedback }: any) {
    return (
       <div className='mt-3 pt-3 border-t border-gray-700'>
          <div className='flex items-center'>

@@ -1,6 +1,6 @@
 import { Bar } from 'react-chartjs-2'
 
-function BarChart({ chartData }) {
+function BarChart({ chartData }: any) {
    return (
       <div className='chart-container mt-4 h-52'>
          <Bar

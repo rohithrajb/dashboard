@@ -41,7 +41,6 @@ function Dashboard() {
             hoverOffset: 0,
             borderWidth: 0,
             cutout: '75%',
-
          },
       ],
    }
@@ -161,43 +160,43 @@ function Dashboard() {
    ]
 
    return (
-      <div className='px-6 py-6 bg-black w-full max-h-[84vh] overflow-x-auto'>
-         <div className='text-start font-bold text-2xl'>Dashboard</div>
-         <div className='grid-container mt-8 pr-6 text-start'>
-            <div className='flex flex-row gap-4'>
+      <div className='px-6 py-6 bg-black w-full overflow-x-auto dashboard'>
+         <p className='text-start font-bold text-2xl'>Dashboard</p>
+         <div className='grid-container mt-8 text-start'>
+            <div className='cards'>
                <div className='basis-1/4 bg-gray-800 p-3 rounded-md'>
                   <RiShoppingBasket2Fill
                      size={36}
                      className='text-blue-500 bg-blue-900 p-1 rounded-md'
                   />
-                  <span className='text-xs'>Total Orders</span>
+                  <p className='text-xs mt-2'>Total Orders</p>
                   <div className='flex justify-between mt-2'>
-                     <span className='text-3xl font-bold'>75</span>
+                     <p className='text-3xl font-bold'>75</p>
                      <div className='flex text-green-400 items-end'>
                         <RiArrowUpSFill size={16} />
-                        <span className='text-xs font-bold'>3%</span>
+                        <p className='text-xs font-bold'>3%</p>
                      </div>
                   </div>
                </div>
                <div className='basis-1/4 bg-gray-800 p-3 rounded-md'>
                   <RiShoppingBag4Fill size={36} className='text-green-400 bg-green-700 p-1 rounded-md' />
-                  <span className='text-xs'>Total Delivered</span>
+                  <p className='text-xs mt-2'>Total Delivered</p>
                   <div className='flex justify-between mt-2'>
-                     <span className='text-3xl font-bold'>70</span>
+                     <p className='text-3xl font-bold'>70</p>
                      <div className='flex text-red-400 items-end'>
                         <RiArrowDownSFill size={16} />
-                        <span className='text-xs font-bold'>3%</span>
+                        <p className='text-xs font-bold'>3%</p>
                      </div>
                   </div>
                </div>
                <div className='basis-1/4 bg-gray-800 p-3 rounded-md'>
                   <RiShoppingBag4Fill size={36} className='text-red-400 bg-red-700 p-1 rounded-md' />
-                  <span className='text-xs'>Total Cancelled</span>
+                  <p className='text-xs mt-2'>Total Cancelled</p>
                   <div className='flex justify-between mt-2'>
-                     <span className='text-3xl font-bold'>05</span>
+                     <p className='text-3xl font-bold'>05</p>
                      <div className='flex text-green-400 items-end'>
                         <RiArrowUpSFill size={16} />
-                        <span className='text-xs font-bold'>3%</span>
+                        <p className='text-xs font-bold'>3%</p>
                      </div>
                   </div>
                </div>
@@ -206,12 +205,12 @@ function Dashboard() {
                      size={36}
                      className='text-pink-500 bg-pink-900 p-1 rounded-md'
                   />
-                  <span className='text-xs'>Total Revenue</span>
+                  <p className='text-xs mt-2'>Total Revenue</p>
                   <div className='flex justify-between mt-2'>
-                     <span className='text-3xl font-bold'>$12k</span>
+                     <p className='text-3xl font-bold'>$12k</p>
                      <div className='flex text-red-400 items-end'>
                         <RiArrowDownSFill size={16} />
-                        <span className='text-xs font-bold'>3%</span>
+                        <p className='text-xs font-bold'>3%</p>
                      </div>
                   </div>
                </div>
@@ -222,13 +221,13 @@ function Dashboard() {
                   <p className='font-bold text-4xl'>$ 6759.25</p>
                   <div className='flex text-green-400 items-end'>
                      <RiArrowUpSFill size={16} />
-                     <span className='text-xs font-bold'>3%</span>
+                     <p className='text-xs font-bold'>3%</p>
                   </div>
                </div>
                <div className='content-center basis-4/12 text-center'>
                   <div className='flex justify-center relative'>
                      <div className='font-bold absolute m-6'>
-                        <span>70%</span>
+                        <p>70%</p>
                         <p className='text-[6px] font-normal'>Goal completed</p>
                      </div>
                      <DoughnutChart chartData={doughnutChartData} />
@@ -240,7 +239,7 @@ function Dashboard() {
                <div className='flex justify-between'>
                   <p className='font-bold text-xl'>Activity</p>
                   <button className='flex bg-zinc-600 text-[10px] h-6 items-center p-3 rounded-full border border-zinc-500'>
-                     <span>Weekly</span>
+                     <p>Weekly</p>
                      <RiArrowDownSFill size={12} />
                   </button>
                </div>

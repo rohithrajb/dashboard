@@ -8,7 +8,83 @@
 .grid-container {
    display: grid;
    gap: 24px;
-   grid-template-columns: 60% 40%;
+   grid-template-columns: 3fr 2fr;
+}
+
+.sidebar-container {
+   @apply flex;
+}
+
+.sidebar {
+   @apply text-gray-400;
+}
+
+.mobile-sidebar {
+   @apply hidden text-gray-400 sticky bottom-0 bg-gray-800;
+}
+
+.selected {
+   @apply px-6 py-3 mt-1 mb-2 border-l-4 border-l-blue-400;
+}
+
+.unselected {
+   @apply px-6 py-3 mt-1 mb-2;
+}
+
+.cards {
+   @apply flex flex-row gap-4;
+}
+
+.dashboard {
+   @apply max-h-[84vh];
+}
+
+@media (max-width: 1190px) {
+   #root {
+      max-width: 900px;
+   }
+
+   .grid-container {
+      grid-template-columns: 100%;
+   }
+}
+
+@media (max-width: 670px) {
+   #root {
+      padding: 0;
+   }
+
+   .main-container {
+      border-radius: 0 !important;
+   }
+
+   .sidebar-container {
+      @apply flex flex-col;
+   }
+
+   .sidebar {
+      @apply hidden;
+   }
+
+   .mobile-sidebar {
+      @apply flex justify-between;
+   }
+
+   .selected {
+      @apply border-l-0 border-b-4 border-b-blue-400 mb-0;
+   }
+
+   .searchbar {
+      @apply hidden !important;
+   }
+
+   .cards {
+      @apply !grid !grid-cols-2;
+   }
+
+   .dashboard {
+      @apply max-h-none;
+   }
 }
 
 .feedback-list :first-child {
