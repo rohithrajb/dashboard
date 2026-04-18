@@ -89,7 +89,7 @@ function Dashboard() {
          name: 'Jenny Wilson',
          stars: 4,
          review:
-            'The food was excellent and so was the service. I had the mushroom risotto with scallops which was awesome. I had a burger over greens (gluten-free) which was also very good. They were very conscientious about gluten allergies.',
+            'The food was excellent and so was the service. I had the mushroom risotto with scallops which was awesome. I had a burger over greens (gluten-free) which was also very good. They were very conscientious about gluten allergies. This is a content addition to check a github problem ✨',
       },
       {
          name: 'Diane Russell',
